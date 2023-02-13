@@ -1,0 +1,15 @@
+.mydiv{
+    animation-name: changebg;
+    animation-duration: 5s;
+    background-image: url(img1.avif);
+    height:25rem;
+    width:25rem;
+}
+@keyframes changebg{
+   from {
+        background-image: url("img/img1.avif");
+    }
+    to {
+        background-image: url("img/img2.jpg");
+    }
+}
